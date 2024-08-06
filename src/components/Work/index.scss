@@ -1,0 +1,190 @@
+.work-page {
+    h1.event-head {
+        margin-left: 545px;
+        // text-align: center;
+        margin-top: 100px;
+        font-size: 45px;
+        // color: white;
+    }
+
+    .card {
+        background: white;
+        width: 315px;
+        height: 271px;
+        margin-left: 334px;
+        margin-top: 24px;
+        position: absolute;
+        border-radius: 12px;
+        box-shadow: 4px 7px 14px brown;
+    }
+
+    .card:nth-child(2) {
+        margin-left: 705px;
+    }
+
+    .card:nth-child(3) {
+        margin-top: 337px;
+    }
+
+    .card:nth-child(4) {
+        margin-left: 705px;
+        margin-top: 335px;
+    }
+
+    .card img {
+        width: 316px;
+        height: 198px;
+    }
+
+    .card .date {
+        font-size: 16px;
+        // text-align: center;
+        margin-left: 36px;
+        margin-top: -21px;
+        color: black;
+    }
+
+    .card .svg-inline--fa.fa-calendar {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    svg.svg-inline--fa.fa-location-dot {
+        font-size: 21px;
+        float: inline-end;
+        right: 70px;
+        top: -36px;
+        position: relative;
+    }
+
+    .place {
+        font-size: 15px;
+        float: inline-end;
+        margin-top: -35px;
+        margin-right: -4px;
+        color: black;
+    }
+
+    .work-video {
+        margin-top: -110px;
+    }
+
+    .link-head {
+        font-family: "Protest Revolution", sans-serif;
+        // color: white;
+        font-size: 43px;
+        margin-right: 73px;
+        float: right;
+    }
+
+    .video-responsive {
+        // margin-top: 135px;
+        margin-left: 159vh;
+        margin-bottom: 28px;
+        // float: right;
+    }
+
+    .video-responsive:nth-child(2) {
+        margin-top: 37px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    footer {
+        position: relative;
+        // top: 666px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .work-page {
+        h1.event-head {
+            margin-left: 114px;
+            margin-top: -10px;
+        }
+
+        .card {
+            margin-left: 68px;
+            margin-top: 1040px;
+            display: inline-grid;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                // left: 257px;
+                left: 232px;
+                width: 3px;
+                top: -28px;
+            }
+        }
+
+        .card img {
+            // margin-left: 30px;
+            margin-top: -15px;
+        }
+
+        .card .date {
+            position: relative;
+            left: 10px;
+            top: -2px;
+            width: 118px;
+        }
+
+        .card .svg-inline--fa.fa-calendar {
+            margin-left: 20px;
+        }
+
+        svg.svg-inline--fa.fa-location-dot {
+            margin-left: 281px;
+        }
+
+        .card:nth-child(2) {
+            margin-left: 68px;
+            margin-top: 100px;
+            display: inline-grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card:nth-child(3) {
+            margin-left: 68px;
+            margin-top: 411px;
+            display: inline-grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card:nth-child(4) {
+            margin-left: 68px;
+            margin-top: 725px;
+            display: inline-grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .shows {
+            display: flex;
+            margin-left: -23px;
+        }
+
+        .work-video {
+            margin-top: 361%;
+            margin-bottom: -653px;
+        }
+
+        .video-responsive {
+            margin-left: 50px;
+            margin-top: 80px;
+        }
+
+        footer {
+            top: 666px;
+        }
+    }
+}

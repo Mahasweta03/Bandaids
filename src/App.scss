@@ -1,0 +1,181 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+$primary-color: yellow;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+/*:root {
+  --background-color: #ffffff; /* Light mode background color 
+  --text-color: #000000;  Light mode text color 
+}*/
+
+/*.dark-mode {
+  --background-color: #131618; /* Dark mode background color 
+  --text-color: #ffffff; /* Dark mode text color 
+}*/
+
+/*body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}*/
+:root {
+  --background-color: #ffffff;
+  --text-color-light: #000000; /* Light mode text color */
+  --text-color-dark: #ffffff; /* Dark mode text color */
+  --paragraph-color-light: #333333; /* Light mode paragraph text color */
+  --paragraph-color-dark: #cccccc; /* Dark mode paragraph text color */
+  --heading-color-light: #444444; /* Light mode heading text color */
+  --heading-color-dark: #dddddd; /* Dark mode heading text color */
+  --animated-text-color: #ffd700; /* Animated text color */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color-light);
+}
+
+p {
+  color: var(--paragraph-color-light);
+}
+
+h1 {
+  color: var(--heading-color-light);
+}
+a{
+  color: var(--paragraph-color-light);
+}
+.text-animate-hover {
+    color: var(--animated-text-color);
+  &:hover{
+    animation: rubberBand 1s;
+    color: var(--heading-color-light);
+  }  
+}
+iframe{
+  box-shadow: 3px 3px 4px black;
+}
+.toggle{
+  color: var(--animated-text-color);
+
+}
+.Book_button{
+  color: var(--text-color-light);
+}
+.log-gog{
+  color: var(--text-color-light)
+}
+.log-fac{
+  color: var(--text-color-light);
+}
+
+.dark-mode {
+  --background-color: #131618;
+  --text-color: var(--text-color-dark);
+  --paragraph-color: var(--paragraph-color-dark);
+  --heading-color: var(--heading-color-dark);
+}
+
+.dark-mode p {
+  color: var(--paragraph-color);
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: var(--heading-color);
+}
+.dark-mode a{
+  color: var(--paragraph-color-dark);
+}
+.dark-mode .text-animate-hover {
+  color: var(--animated-text-color);
+  &:hover{
+    color: var(--heading-color-dark);
+  }
+}
+.dark-mode iframe{
+  box-shadow: 3px 4px 5px white;
+}
+.dark-mode .toggle{
+   color: var(--animated-text-color);
+}
+.dark-mode .Book_button{
+  color: var(--text-color-dark);
+}
+.dark-mode input{
+  background-color: #f0f0f03b;
+}
+.dark-mode .log-gog{
+  color: var(--text-color-dark);
+}
+.dark-mode .log-fac{
+  color: var(--text-color-dark);
+}
+.loader-active{
+  display: block;
+  position: fixed;
+  left: 61px;
+  right: 0;
+  margin: auto;
+  top: 48px;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeout 0.7s 0.7s ;
+  animation-fill-mode: forwards;
+}
+.loader-hidden {
+  display: none;
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 1200px){
+  /* .loader-active{
+    top: -686px;
+  }*/
+  .pacman{
+    margin-top: -7px;
+  }
+}

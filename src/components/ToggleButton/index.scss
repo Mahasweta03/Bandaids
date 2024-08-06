@@ -1,0 +1,16 @@
+.toggle{
+    margin-right: 76px;
+    font-size: 32px;
+    position: relative;
+    z-index: 10;
+    float: right;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 1200px){
+    .toggle{
+        z-index: revert-layer;
+        margin-top: 10px;
+        margin-right: 65px;
+    }
+}

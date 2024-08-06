@@ -1,0 +1,112 @@
+.logo{
+    display: block;
+    padding: 8px 0;
+
+    img{
+        display: block;
+        margin: 8px auto;
+        width: 154px;
+        height: auto;
+    }
+
+}
+.signup{
+  
+    display: grid;
+    width: 470px;
+    left: 312px;
+    top: 128px;
+    height: 200px;
+    input {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        border-radius: 11px;   
+    }
+    button {
+        padding: 10px 15px;
+        width: 103px;
+        border-radius: 10px;
+        background-color: #6115a8;
+        color: aliceblue;
+        &:hover{
+            background-color: #7319c7;
+        }
+    }
+    .or-text{
+        display: flex; 
+        flex-direction: row; 
+        &::before, 
+        &::after{
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: 2px solid #000; 
+            margin: 14px 20px; 
+
+        }
+    }
+    .log-gog {
+        font-size: 28px;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 192px;
+    }
+    .log-fac {
+        font-size: 30px;
+        margin-left: 256px;
+        margin-top: -29px;
+    }
+    img {
+        position: relative;
+        width: 100%;
+        top: -464px;
+        left: 527px;
+    }
+
+    .con-sign{
+        position: relative;
+        margin-top: -451px;
+        height: 30px;
+        font-size: 14px;
+    }
+    p.error {
+        margin-top: -400px;
+        height: 30px;
+        background-color: rgb(132 200 163 / 30%);
+        border-radius: 10px;
+        font-size: 12px;
+        text-align: center;
+        align-items: center;
+        display: grid;
+    }
+    .con-icon {
+        position: relative;
+        top: -37px;
+        float: inline-end;
+        left: -11px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .signup{
+        width: 352px;
+        left: -25px;
+        top: 102px;
+        img{
+            top: 26px;
+            left: 0px;
+        }
+        .pass_reset{
+            position: relative;
+            top: 100px;
+        }
+        .con-sign{
+            top: 129px;
+            text-align: center;
+        }
+        .log-gog{
+            margin-left: 133px;
+        }
+        .log-fac{
+            margin-left: 195px;
+        }
+    }
+}

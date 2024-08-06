@@ -1,0 +1,30 @@
+.auth-container {
+    text-align: center;
+    top: 258px;
+    position: relative;
+    left: 186px;
+    width: 80%;
+    .wel_text{
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 15px;
+
+    }
+    button{
+        padding: 10px 20px;
+        border-radius: 17px;
+        background-color: #6115a8;
+        color: aliceblue;
+        &:hover{
+            background-color: #7319c7;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .auth-container{
+        left: 35px;
+    }
+}
+

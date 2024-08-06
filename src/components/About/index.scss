@@ -1,0 +1,436 @@
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 20%;
+        top: 38%;
+        transform: translateY(-50%);
+        width: 50%;
+        vertical-align: middle;
+
+        display: table-cell;
+
+        img {
+            width: 457px;
+            margin-left: 655px;
+            margin-top: -187px;
+        }
+
+        h1 {
+            font-size: 53px;
+            font-family: "Dancing Script", cursive;
+            // color: #ffd700;
+
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 10px;
+
+            &::before {
+                content: '<h1>';
+                font-family: "Dancing Script", cursive;
+                color: #ffd700;
+                font-size: 18px;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0.6;
+                line-height: 18px;
+            }
+
+            &::after {
+                content: '<h1/>';
+                font-family: "Dancing Script", cursive;
+                color: #ffd700;
+                font-size: 18px;
+                line-height: 18px;
+                position: absolute;
+                left: -30px;
+                bottom: -20px;
+                margin-left: 20px;
+                opacity: 0.6;
+            }
+        }
+
+        p {
+            font-size: 25px;
+            // color: aliceblue;
+            min-width: fit-content;
+            animation: pulse 1s;
+            font-family: "Rancho", cursive;
+
+            &:nth-of-type(1) {
+                animation-delay: 1.1s;
+            }
+        }
+
+        /*.text-animate-hover{
+            &:hover{
+                color: rgb(53, 60, 67);
+                
+            }
+        }*/
+    }
+
+    h2 {
+        // position: absolute;
+        margin-left: 265px;
+        // padding-top: 172px;
+        margin-top: -22px;
+        // color: white; 
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+
+    }
+
+    footer {
+        position: relative;
+        // top: 667px;
+        margin-top: 120px;
+
+        // position: fixed;
+        padding-left: 183px;
+        height: 23px;
+        font-size: 15px;
+        color: white;
+        background-color: #4f4200;
+    }
+
+    footer ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer ul li {
+        margin-right: 52px;
+    }
+
+    /*.Profile-zone {
+        position: absolute;
+        bottom: 11rem;
+        left: 254px;
+    }
+  
+    .profile {
+        width: 14rem;
+        height: 14rem;
+        margin-left: 150px;
+        border-radius: 10rem;
+        border: 0.6rem solid white;
+        box-shadow: 0px 15px 11px -6px #cdd4e6;
+    }
+  
+    .profile + .profile {
+        margin-left: 2.5rem;
+    }*/
+}
+
+.modal {
+    height: 182%;
+
+    button {
+        // margin-left: 237px;
+        // display: flex;
+        // margin-left: 176px;
+        left: 304px;
+        position: relative;
+        top: -71px;
+    }
+
+    button:first-child {
+        // margin-left: 230px;
+        // margin-top: 50vh;
+        margin-top: 69vh;
+        margin-left: 30px;
+        /* width: 171px;
+         height: 163px;
+        border-radius: 100px;
+        border: 7px solid rgb(255, 255, 255);*/
+        width: 305px;
+        height: 305px;
+        background-size: 301px 301px;
+        background-image: url('../../assets/images/santanu.jpg');
+        // background-size: 164px 249px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px 400px;
+
+    }
+
+    button:nth-child(2) {
+        /*width: 171px;
+        height: 163px;
+        border-radius: 100px;
+        border: 7px solid rgb(255, 255, 255);*/
+        width: 305px;
+        height: 305px;
+        margin-left: 40px;
+        background-size: 301px 301px;
+        background-image: url('../../assets/images/rahul.jpg');
+        // background-size: 246px 192px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    button:nth-child(3) {
+        /*width: 171px;
+        height: 163px;
+        border-radius: 100px;
+        border: 7px solid rgb(255, 255, 255);*/
+        width: 305px;
+        height: 305px;
+        margin-left: 40px;
+        background-size: 301px 301px;
+        background-image: url('../../assets/images/jishu.jpg');
+        // background-size: 246px 192px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    button:nth-child(4) {
+        /*width: 171px;
+        height: 163px;
+        border-radius: 100px;
+        border: 7px solid rgb(255, 255, 255);*/
+        width: 305px;
+        height: 305px;
+        margin-left: 202px;
+        top: 180px;
+        display: flex;
+        
+        background-size: 301px 301px;
+        background-image: url('../../assets/images/souptik.jpg');
+        // background-size: 157px 227px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    // button:nth-child(5) {
+    //     /*width: 171px;
+    //     height: 163px;
+    //     border-radius: 100px;
+    //     border: 7px solid rgb(255, 255, 255);*/
+    //     width: 305px;
+    //     height: 305px;
+    //     background-size: 301px 301px;
+    //     background-image: url('../../assets/images/soumya.jpg');
+    //     // background-size: 159px 227px;
+    //     background-repeat: no-repeat;
+    //     margin-top: -137px;
+    //     margin-left: 377px;
+    // }
+
+    button:nth-child(5) {
+        /*width: 171px;
+        height: 163px;
+        border-radius: 100px;
+        border: 7px solid rgb(255, 255, 255);*/
+        width: 305px;
+        height: 305px;
+        margin-left: 74vh;
+        margin-top: -137px;
+        background-size: 301px 301px;
+        background-image: url('../../assets/images/rohan.jpg');
+        // background-size: 169px 152px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    button:nth-child(2n) {
+        // margin-left: 170vh;
+        // margin-left: 155vh;
+        // margin-top: -138px;
+        margin-top: -305px;
+        margin-bottom: 84px;
+    }
+
+    .overlay {
+        background: rgb(106 106 106 / 80%);
+        border-radius: 20px;
+        border: 1px solid white;
+        width: 708px;
+        height: 403px;
+        margin-left: 494px;
+        // margin-top: -66vh;
+        top: -86vh;
+        margin-bottom: 204px;
+        z-index: 1;
+        backdrop-filter: blur(8px);
+        position: relative;
+    }
+
+    .modalContainer img {
+        width: 200px;
+        top: 59px;
+        position: relative;
+        left: 64px;
+    }
+
+    p.closeBtn {
+        color: white;
+        margin-right: 19px;
+        float: right;
+        margin-top: -80px;
+    }
+
+    /*.modalRight {
+        float: right;
+        margin-right: 100px;
+    }*/
+    .content {
+        color: white;
+        // float: right;
+        margin-top: -224px;
+        // margin-right: 62px;
+        margin-left: 371px;
+        width: 271px;
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .about-page {
+        .text-zone {
+            position: initial;
+            transform: none;
+            width: 100%;
+            display: block;
+            padding: 20px;
+            box-sizing: border-box;
+             p {
+            width: 380px;
+            }
+        }
+
+       
+
+
+        footer {
+            padding-left: 20px;
+            height: 43px;
+            width: 392px;
+            font-size: 15px;
+            color: white;
+            background-color: #4f4200;
+
+            ul {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        footer {
+            top: 341px;
+
+            ul {
+                margin-top: -100px;
+                /*display: inline-block;
+                margin-bottom: -13px;*/
+            }
+        }
+
+        h2 {
+            position: absolute;
+            margin-left: 24px;
+            padding-top: 0px;
+
+
+        }
+
+        .overlay {
+            width: 363px;
+            height: 700px;
+            margin-left: 300px;
+            margin-top: -704px;
+            margin-bottom: 311px;
+            img{
+                left: 86px;
+            }
+        }
+
+        p.closeBtn {
+            position: relative;
+            width: 20px;
+            left: 10px;
+            // margin-right: -213px;
+        }
+
+        .content {
+            // float: left;
+            // margin-right: 141px;
+            // left: 41px;
+
+            // position: relative;
+            // display: inline-block;
+            position: relative;
+            margin-left: 62px;
+            height: 149px;
+            top: 283px;
+        }
+
+        // .content p {
+            // width: 100px;
+        // }
+
+        /*.profile {
+            margin-bottom: 90px;
+            margin-left: 130px;
+            position: relative;
+            display: flex;
+        }
+        .profile + .profile{
+            margin-left: 130px;
+        } 
+        .Profile-zone {
+            position:initial;
+        }*/
+        .modal {
+            margin-left: -275px;
+        
+
+        button {
+            display: flex;
+            margin-left: 27px;
+
+        }
+        }
+        button:first-child {
+            margin-top: 32vh;
+        }
+
+        // button:nth-child(2n){
+        //     margin-top: 20vh;
+        //     margin-left: 29px;
+        // }
+        button:nth-child(2) {
+            margin-left: 29px;
+            margin-top: 5vh;
+        }
+
+        button:nth-child(3) {
+            margin-left: 29px;
+            margin-top: -4vh;
+        }
+
+        button:nth-child(4) {
+            margin-left: 29px;
+            margin-top: -22vh;
+        }
+
+        button:nth-child(5) {
+            margin-top: 33vh;
+            margin-left: 29px;
+        }
+
+        // button:nth-child(6) {
+        //     margin-top: 5vh;
+        //     margin-left: 29px;
+        // }
+
+    }
+}

@@ -46,7 +46,7 @@ import React, { useState } from "react";
 import { auth } from "../../firebase";
 import { Link } from "react-router-dom";
 import loginImage from "../../assets/images/Login-amico.png"
-import images from '../../assets/images/BAND AID.png';
+import images from '../../assets/images/BAND AID (2).png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faXmark} from '@fortawesome/free-solid-svg-icons'
 

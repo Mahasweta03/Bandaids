@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import '../auth-signup/signup.scss'
 import signupImage from "../../assets/images/signup.png"
-import images from '../../assets/images/BAND AID.png';
+import images from '../../assets/images/BAND AID (2).png';
 import { signInWithPopup } from "firebase/auth";
 // import GoogleButton from 'react-google-button'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'

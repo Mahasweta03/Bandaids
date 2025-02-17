@@ -26,7 +26,7 @@ import React from "react";
 import { auth } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 import resetImage from "../../assets/images/Forgot password.png";
-import images from '../../assets/images/BAND AID.png';
+import images from '../../assets/images/BAND AID (2).png';
 import { Link } from "react-router-dom";
 import '../auth-passwordreset/reset.scss'
 

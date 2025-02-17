@@ -59,6 +59,7 @@ const Work = () => {
                     <FontAwesomeIcon icon={faCalendar} /><p className='date'>28th December </p>
                     <FontAwesomeIcon icon={faLocationDot} /><p className='place'>Howrah</p>
                 </div>
+                <h2 className='events'>And Many More...</h2>
             </div>
             <div className='work-video'>    
                 <h1 className='link-head'>Watch NOW!</h1>

@@ -6,7 +6,13 @@
         font-size: 45px;
         // color: white;
     }
-
+    h2.events {
+        position: absolute;
+        left: 50pc;
+        top: 51pc;
+        font-size: 30px;
+        font-family: "Dancing Script", cursive;
+    }
     .card {
         background: white;
         width: 315px;
@@ -75,6 +81,7 @@
         // color: white;
         font-size: 43px;
         margin-right: 73px;
+        margin-top: 73px;
         float: right;
     }
 
@@ -108,7 +115,10 @@
             margin-left: 114px;
             margin-top: -10px;
         }
-
+        h2.events {
+            left: 8pc;
+            top: 91pc;
+        }
         .card {
             margin-left: 68px;
             margin-top: 1040px;

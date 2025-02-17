@@ -71,7 +71,7 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import { useState } from 'react';
-import images from '../../assets/images/BAND AID.png';
+import images from '../../assets/images/BAND AID (2).png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDrum, faEnvelope, faHome, faUser, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';

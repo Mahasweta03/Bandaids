@@ -2,7 +2,7 @@
   "name": "bandaids-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mahasweta03.github.io/Bandaids",
+  "homepage": "https://www.bandaids.com",
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",

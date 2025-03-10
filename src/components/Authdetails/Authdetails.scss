@@ -1,13 +1,127 @@
+.welcome-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    overflow: hidden;
+  
+    .backgrounds {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      
+    }
+  
+    .criterion {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 4rem;
+      margin-left: 28pc;
+      font-weight: bold;
+      color: white;
+    }
+  
+    // Particle effect for letters dropping
+    .text {
+      opacity: 0;
+      transform: translateY(-100px);
+      animation: dropIn 1.5s ease-in-out forwards;
+      margin-top: -230px;
+      font-family: "AJ Signal", sans-serif;
+      font-weight: 400;
+      font-size: 100px;
+    }
+  
+    @font-face {
+      font-family: "AJ Signal";
+      src: url("../../assets/fonts/AJ Signal.otf") format("truetype"); // Adjust path accordingly
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @for $i from 0 through 8 {
+      .text#{$i} {
+        animation-delay: $i * 0.2s; // Staggered effect
+      }
+    }
+  
+    @keyframes dropIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.5);
+        filter: blur(5px);
+      }
+      50% {
+        opacity: 0.5;
+        transform: translateY(10px) scale(1.1);
+        filter: blur(2px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+      }
+    }
+  
+    // Particle animation before letters form
+    .particle {
+      position: absolute;
+      background: white;
+      width: 5px;
+      height: 5px;
+      margin-left: -450px;
+      margin-top: -300px;
+      border-radius: 50%;
+      opacity: 0;
+      animation: particleDrop 1.2s ease-in-out forwards;
+    }
+  
+    @for $i from 0 through 79 {
+      .particle#{$i} {
+        top: random(50) * -1 + px; // Random starting position above screen
+        left: random(100) + vw;
+        animation-delay: random(10) * 0.1s; // Randomized delay
+      }
+    }
+  
+    @keyframes particleDrop {
+      0% {
+        opacity: 1;
+        transform: translateY(0) scale(0.5);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(100vh) scale(1.2);
+      }
+    }
+  }
+  
 .auth-container {
     text-align: center;
-    top: 258px;
+    // top: 258px;
     position: relative;
-    left: 186px;
+    left: -603px;
+    top: 20px;
     width: 80%;
+    .wel{
+      top: -145px;
+      position: relative;
+      font-size: 53px;
+      left: -220px;
+      color: aliceblue;
+      font-family: "Dancing Script", cursive;
+    }
     .wel_text{
+        color: aliceblue;
         font-size: 45px;
         margin-bottom: 5px;
     }
+
     p{
         font-size: 15px;
 
